@@ -1,4 +1,4 @@
-# Koa2 API Boilerplate
+# Koa2 API Boilerplate (Typescript version)
 Boilerplate for Node.js Koa2 API application with Typescript, TSLint, ES2017.
 
 ## Requirements
