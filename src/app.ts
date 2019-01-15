@@ -4,12 +4,15 @@ import * as koaBodyparser from 'koa-bodyparser'
 import * as compress from 'koa-compress'
 import * as helmet from 'koa-helmet'
 import * as logger from 'koa-logger'
+import onerror from 'koa-onerror'
 import * as protect from 'koa-protect'
 import * as ratelimit from 'koa-ratelimit'
 import * as responseTime from 'koa-response-time'
 import apiRouter from './routers/index'
 
 const app = new Koa()
+
+onerror(app)
 
 // X-Response-Time middleware
 app.use(responseTime())
