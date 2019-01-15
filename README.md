@@ -1,5 +1,5 @@
-# Koa2 API Boilerplate
-Boilerplate for Node.js Koa2 API application with Typescript, TSLint, ES2017.
+# Koa2 API Boilerplate (Typescript version)
+Boilerplate for Node.js Koa2 API application with Typescript, TSLint, ES2017, Yarn.
 
 ## Requirements
 - Redis (installed & running)
