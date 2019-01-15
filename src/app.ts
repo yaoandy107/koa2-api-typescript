@@ -3,6 +3,7 @@ import * as Koa from 'koa'
 import * as koaBodyparser from 'koa-bodyparser'
 import * as compress from 'koa-compress'
 import * as helmet from 'koa-helmet'
+import json from 'koa-json'
 import * as logger from 'koa-logger'
 import onerror from 'koa-onerror'
 import * as protect from 'koa-protect'
@@ -16,6 +17,8 @@ onerror(app)
 
 // X-Response-Time middleware
 app.use(responseTime())
+// JSON pretty-printed response middleware
+app.use(json())
 // Development style logger middleware
 app.use(logger())
 // SQL injection  protection middleware
