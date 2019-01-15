@@ -2,7 +2,9 @@
   "license": "MIT",
   "scripts": {
     "start": "tsc && node build/app.js",
-    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/app.ts"
+    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/app.ts",
+    "lint": "tslint --project .",
+    "lintfix": "tslint --project . --fix"
   },
   "dependencies": {
     "@types/koa": "^2.0.48",
