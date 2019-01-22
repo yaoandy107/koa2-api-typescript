@@ -15,4 +15,7 @@ $ yarn start
 
 # run the application with nodemon for development
 $ yarn dev
+
+# run the test
+$ yarn test
 ```
