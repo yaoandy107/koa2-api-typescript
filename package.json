@@ -8,9 +8,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@types/koa": "^2.0.48",
-    "@types/koa-bodyparser": "^4.2.1",
-    "@types/koa-router": "^7.0.37",
     "ioredis": "^4.3.0",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
@@ -22,16 +19,19 @@
     "koa-protect": "^1.0.1",
     "koa-ratelimit": "^4.1.2",
     "koa-response-time": "^2.1.0",
-    "koa-router": "^7.4.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
     "nodemon": "^1.18.9",
     "ts-node": "^7.0.1",
     "tslint": "^5.12.1",
-    "typescript": "^3.2.2"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
     "jest": "^23.6.0",
     "supertest": "^3.3.0",
-    "ts-jest": "^23.10.5"
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.4"
   }
 }
