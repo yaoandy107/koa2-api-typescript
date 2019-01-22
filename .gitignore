@@ -81,3 +81,5 @@ typings/
 
 # Redis
 dump.rdb
+
+build/
