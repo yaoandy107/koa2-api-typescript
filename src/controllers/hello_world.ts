@@ -2,7 +2,8 @@
  * A API for testing
  */
 async function helloWorld(ctx, next) {
-    ctx.body = 'Hello World!'
+    ctx.response.type = 'json'
+    ctx.body = { data: 'Hello World!'}
 }
 
 export default helloWorld

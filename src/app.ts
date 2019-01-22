@@ -53,6 +53,6 @@ app.use(koaBodyparser())
 // Add all the api routers
 app.use(apiRouter.routes())
 
-app.listen(process.env.PORT || 3000, () => {
+export default app.listen(process.env.PORT || 3000, () => {
     console.log(`Server running on http://localhost:${process.env.PORT || 3000}`)
 })
